@@ -1,11 +1,9 @@
 class Solution {
-    static boolean[] visited;
     static int[] Numbers;
     static int Target;
     static int answer = 0;
     
     public int solution(int[] numbers, int target) {
-        visited = new boolean[numbers.length];
         Numbers = numbers;
         Target = target;
 
